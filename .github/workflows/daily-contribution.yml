@@ -29,8 +29,8 @@ jobs:
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "oto0928"
+          git config user.email "toa0928koron@icloud.com"
 
           # 3〜10件。日によって濃さが変わるようにする。
           COUNT=$((3 + RANDOM % 8))
