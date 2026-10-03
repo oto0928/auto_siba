@@ -4,9 +4,9 @@ on:
   schedule:
     # GitHub Actions の cron は UTC。
     # Australia/Brisbane は通年 UTC+10（サマータイムなし）。
-    # 14:00 UTC = ブリスベンの 00:00。
+    # 15:05 UTC = ブリスベンの 01:05。
     # 実行が数分〜数時間遅れても、同じ日のコントリビューションとして残る。
-    - cron: "0 14 * * *"
+    - cron: "5 15 * * *"
   workflow_dispatch:
 
 permissions:
